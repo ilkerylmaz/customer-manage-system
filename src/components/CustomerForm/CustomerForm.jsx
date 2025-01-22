@@ -10,7 +10,14 @@ const CustomerForm = ({ addNewCustomer }) => {
             id: Math.random(),
             customerName,
         };
-        addNewCustomer(newCustomer);
+        if (customerName != null && customerName != "") {
+            addNewCustomer(newCustomer);
+
+        } else {
+            alert("isim boş bırakılamaz. ")
+
+
+        }
         setCustomerName("")
     };
 
