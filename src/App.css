@@ -1,0 +1,9 @@
+.app {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.app h1 {
+  margin-bottom: 20px;
+}
