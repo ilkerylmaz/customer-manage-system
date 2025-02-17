@@ -12,11 +12,8 @@ const CustomerForm = ({ addNewCustomer }) => {
         };
         if (customerName != null && customerName != "") {
             addNewCustomer(newCustomer);
-
         } else {
             alert("isim boş bırakılamaz. ")
-
-
         }
         setCustomerName("")
     };
